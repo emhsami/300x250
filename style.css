@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.main-wrapper * {
+    position: absolute;
+}
+
+.main-img {
+    left: -600px;
+}
+
+.color {
+    width: 300px;
+    height: 250px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.467) 60%, rgba(0, 0, 0, 0.9) 100%);
+    /* background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 60%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9) 20%, rgba(255,255,255,0) 100%); */   
+}
+
+/* .frame-1-text, .frame-2-text, .frame-3-text {
+    opacity: 0;
+} */
+
+.last-frame {
+    left: -900px;
+}
